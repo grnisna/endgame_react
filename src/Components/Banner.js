@@ -4,6 +4,8 @@ const Banner = () => {
   return (
     <div>
       <h> This is banner</h>
+      <h> This is banner</h>
+      <h> This is banner</h>
     </div>
   )
 }
