@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFacebook, BsTwitter, BsPinterest, BsLinkedin } from 'react-icons/bs';
-import footerBg from "../Asset/footer/footer-bg.jpg";
-import logo2 from "../Asset/footer/logo-two.png";
+import footerBg from "../components/Asset/footer/footer-bg.jpg";
+import logo2 from "../components/Asset/footer/logo-two.png";
 
 const Footer = () => {
     let getYear = () => {
@@ -10,17 +10,15 @@ const Footer = () => {
     };
     return (
         <div>
+
             <footer
-                className="footer p-10   text-white"
+                className="footer p-10 text-white bg-base-200 text-base-content"
                 style={{ background: `url(${footerBg})`, backgroundSize: 'cover', color: 'white', backgroundRepeat: "no-repeat", position: "relative", backgroundPosition: "center", zIndex: '5', padding: "70px 0", opacity: '0.9' }}
             >
                 <div >
                     <img src={logo2} alt="" />
                     <span className='py-3 w-80'>Our robotic Manufacture always try to give our customers unique and high quality product.we always provide our best service</span>
-
                     <div>
-
-
                         <div className='grid grid-flow-col gap-4 mx-auto justify-between items-center'>
 
                             <a className='text-2xl bg-orange-500 text-white rounded-full p-2 hover:bg-white hover:text-orange-500' href='http://www.google.com'><BsFacebook /></a>
