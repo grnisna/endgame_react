@@ -1,0 +1,14 @@
+.benefits-btn {
+ background-color: #fa5f0b;
+}
+
+.benefits-btn:hover {
+ background-color: #282828;
+}
+
+h4 {
+ font-size: 20px;
+ font-weight: 600;
+ width: 80%;
+ padding: 10px;
+}
