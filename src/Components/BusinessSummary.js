@@ -30,9 +30,6 @@ const BusinessSummary = () => {
             <h1 className="text-4xl text-orange-600">27000+</h1>
             <p className=" text-black text-xl">Reviews</p>
           </div>
-
-
-
         </div>
 
         {/* ******************** */}
@@ -52,21 +49,22 @@ const BusinessSummary = () => {
         </div>
 
         <button className="btn bg-orange-600 rounded border-orange-600 text-white lg:ml-10 ml-5">Discover More</button>
+
       </div>
 
-      
-        <div className='lg:rounded-full lg:w-[40%]  lg:ml-24 relative' style={{
-          backgroundImage: `url(${Bgimg})`,
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat'
-        }} >
-          
-          <img className='absolute bottom-[-8rem] lg:w-52 w-32'  src={GrowthImg} alt="" />
-          
-        </div>
+
+      <div className='lg:rounded-full lg:w-[40%]  lg:ml-24 relative' style={{
+        backgroundImage: `url(${Bgimg})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat'
+      }} >
+
+        <img className='absolute bottom-[-8rem] lg:w-52 w-32' src={GrowthImg} alt="" />
+
       </div>
-    
+    </div>
+
   );
 };
 
