@@ -12,8 +12,17 @@
     "daisyui": "^2.19.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
     "react-icons": "^4.4.0",
+=======
+<<<<<<< HEAD
+    "react-elastic-carousel": "^0.11.5",
+=======
+    "react-icons": "^4.4.0",
+>>>>>>> 3839521f21e142af51d7e66808d8f45b8d71a5dc
+>>>>>>> 817855537554b45474ec9803937029a80129b506
     "react-scripts": "5.0.1",
+    "swiper": "^8.3.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -41,8 +50,16 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
+=======
+<<<<<<< HEAD
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+=======
+>>>>>>> cb3ba6aa12c40d4537793fa7bdfe0e5e4dd23d36
+>>>>>>> 817855537554b45474ec9803937029a80129b506
     "tailwindcss": "^3.1.6"
   }
 }
