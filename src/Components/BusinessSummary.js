@@ -60,7 +60,7 @@ const BusinessSummary = () => {
         backgroundRepeat: 'no-repeat'
       }} >
 
-        <img className='absolute bottom-[-8rem] lg:w-52 w-32' src={GrowthImg} alt="" />
+        <img className='lg:absolute lg:bottom-[-8rem] lg:w-52 w-32' src={GrowthImg} alt="" />
 
       </div>
     </div>
