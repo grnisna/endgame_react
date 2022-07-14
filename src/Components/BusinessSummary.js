@@ -3,10 +3,15 @@ import { IoIosPeople } from 'react-icons/io';
 import { FaTrophy } from 'react-icons/fa';
 import { BsGearFill } from 'react-icons/bs';
 import { FaHandHoldingUsd } from 'react-icons/fa';
+import Bgimg from './image/growthImg/growthBG.jpg';
+import GrowthImg from './image/growthImg/growthImg.png';
+
+
+
 
 const BusinessSummary = () => {
   return (
-    <div className='lg:flex py-5 bg-white' >
+    <div className='lg:flex pt-24 pb-40 bg-white' >
       <div className='lg:w-[40%]  '>
         <h4 className=' text-orange-600 font-bold lg:ml-10 font-segoe_ui ml-5'>About Business Summery</h4>
         <h2 className='text-4xl lg:ml-10 font-segoe_ui my-5 ml-5'>Know More About Our Bussiness</h2>
@@ -49,8 +54,19 @@ const BusinessSummary = () => {
         <button className="btn bg-orange-600 rounded border-orange-600 text-white lg:ml-10 ml-5">Discover More</button>
       </div>
 
-      <div className='lg:w-[40%]'>image</div>
-    </div>
+      
+        <div className='lg:rounded-full lg:w-[40%]  lg:ml-24 relative' style={{
+          backgroundImage: `url(${Bgimg})`,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat'
+        }} >
+          
+          <img className='absolute bottom-[-8rem] lg:w-52 w-32'  src={GrowthImg} alt="" />
+          
+        </div>
+      </div>
+    
   );
 };
 

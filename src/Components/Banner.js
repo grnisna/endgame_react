@@ -3,6 +3,7 @@ import bannerBGImage from './image/BannerImage/banner-bg.jpg';
 import bannerImage from './image/BannerImage/banner-main.png';
 
 
+
 const Banner = () => {
   return (
     <div className="hero py-14 w-full" style={ {
@@ -24,7 +25,7 @@ const Banner = () => {
           <button className="btn bg-orange-600 rounded border-orange-600 text-white lg:ml-0 ml-10">Discover More</button>
         </div>
         <div className=' lg:w-[35%] w-full'>
-          <img src={bannerImage} className="lg:w-72 w-52 mx-auto lg:mt-0 mt-5"  />
+          <img src={bannerImage} className="lg:w-72  mx-auto lg:mt-0 mt-5"  />
         </div>
 
       </div>
