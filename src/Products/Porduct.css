@@ -1,0 +1,19 @@
+.productname h3 {
+    color: #282828;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.description {
+    color: rgb(86, 86, 86);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.prices-descripe {
+    font-weight: 600;
+}
+
+.prices p {
+    margin: 0;
+}
