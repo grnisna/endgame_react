@@ -1,26 +1,17 @@
+import React from 'react';
 import './App.css';
-<<<<<<< HEAD
-import Promotion from './Component/Promotion';
-import Testimonial from './Component/Testimonial';
-
-
-function App() {
-  return (
-    <div className="App">
-      <Promotion></Promotion>
-      <Testimonial></Testimonial>
-=======
+import Promotion from './Components/Promotion';
+import Testimonial from './Components/Testimonial';
 import Banner from './Components/Banner';
 import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div >
+    <div className="App">
       <Banner></Banner>
+      <Promotion></Promotion>
+      <Testimonial></Testimonial>
       <Footer />
-
-      
->>>>>>> 3839521f21e142af51d7e66808d8f45b8d71a5dc
     </div>
   );
 }
