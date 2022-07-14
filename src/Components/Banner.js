@@ -21,7 +21,7 @@ const Banner = () => {
           <p className="py-6 text-white text-xl lg:text-left text-justify lg:mx-0 mx-10">
             Welcome Our Customer.We are always here For your services and we always provide unique and supper extra ordinary Robotic accessories
           </p>
-          <button className="btn bg-orange-600 border-orange-600 text-white lg:ml-0 ml-10">Discover More</button>
+          <button className="btn bg-orange-600 rounded border-orange-600 text-white lg:ml-0 ml-10">Discover More</button>
         </div>
         <div className=' lg:w-[35%] w-full'>
           <img src={bannerImage} className="lg:w-72 w-52 mx-auto lg:mt-0 mt-5"  />
