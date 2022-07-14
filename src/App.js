@@ -1,12 +1,19 @@
 import './App.css';
 <<<<<<< HEAD
+import Section01 from './Components/TreeSection/Section01';
+=======
+<<<<<<< HEAD
 import Promotion from './Component/Promotion';
 import Testimonial from './Component/Testimonial';
 
+>>>>>>> cb3ba6aa12c40d4537793fa7bdfe0e5e4dd23d36
 
 function App() {
   return (
     <div className="App">
+<<<<<<< HEAD
+      <Section01></Section01>
+=======
       <Promotion></Promotion>
       <Testimonial></Testimonial>
 =======
@@ -21,6 +28,7 @@ function App() {
 
       
 >>>>>>> 3839521f21e142af51d7e66808d8f45b8d71a5dc
+>>>>>>> cb3ba6aa12c40d4537793fa7bdfe0e5e4dd23d36
     </div>
   );
 }

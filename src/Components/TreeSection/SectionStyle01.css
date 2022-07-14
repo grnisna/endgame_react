@@ -1,0 +1,40 @@
+.content-section {
+ background-color: #020e1d;
+}
+
+.human-job {
+ color: #ffff;
+
+}
+
+h1 {
+ font-family: 'Poppins',
+  sans-serif;
+ font-size: 30px;
+ font-weight: 700px;
+}
+
+ul>li {
+ color: #ffff;
+ font-size: 17px;
+ font-weight: 500px;
+ background-color: #152130;
+ padding: 10px;
+ margin: 20px 40px 10px 0px;
+ border-radius: 8px;
+
+}
+
+ul>li:hover {
+ background-color: #fa5f0b;
+}
+
+.robot-blob {
+ vertical-align: middle;
+ right: 0;
+ top: 20%;
+}
+
+.robotBlob {
+ vertical-align: middle;
+}
