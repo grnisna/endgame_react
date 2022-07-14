@@ -13,7 +13,7 @@ const Footer = () => {
         <div>
 
             <footer
-                className="footer p-10 text-white bg-base-200 text-base-content"
+                className="footer  bottom-0 absolute lg:mt-10 mt-5  p-10 text-white bg-base-200 "
                 style={{ background: `url(${footerBg})`, backgroundSize: 'cover', color: 'white', backgroundRepeat: "no-repeat", position: "relative", backgroundPosition: "center", zIndex: '5', padding: "70px 0", opacity: '0.9' }}
             >
                 <div >
@@ -32,10 +32,8 @@ const Footer = () => {
                 <div>
                     <span className="text-2xl font-bold">Get In Touch</span>
                     <p><strong>Phone</strong>  <br /><span>0888555</span></p>
-
                     <p><strong>Email</strong> <br /><span>rifatjahan823@gmail.com</span></p>
                     <p><strong>Address</strong> <br /><span>3254-425 NW-2nd Ave, Miami USA</span></p>
-
                 </div>
                 <div>
                     <span className="text-2xl font-bold">Useful Links</span>
@@ -62,9 +60,9 @@ const Footer = () => {
 
             {/* 2nd footer */}
 
-            <footer className="footer footer-center p-4 bg-slate-700 text-white">
+            <footer className="footer bottom-0 absolute footer-center p-4 bg-slate-700 text-white">
                 <div>
-                    <p>Copyright &copy; {getYear()} -  Robtic.Rifat Jahan for Robotic Manufacturers</p>
+                    <p>Copyright &copy; {getYear()} - Robtic.Rifat Jahan for Robotic Manufacturers</p>
                 </div>
             </footer>
         </div>
