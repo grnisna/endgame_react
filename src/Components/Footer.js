@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsFacebook, BsTwitter, BsPinterest, BsLinkedin } from 'react-icons/bs';
-import footerBg from "./components/Asset/footer/footer-bg.jpg";
-import logo2 from "./components/Asset/footer/logo-two.png";
+import footerBg from "./Asset/footer/footer-bg.jpg";
+import logo2 from "./Asset/footer/logo-two.png";
 
 
 const Footer = () => {
