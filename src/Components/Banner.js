@@ -6,14 +6,14 @@ import bannerImage from './image/BannerImage/banner-main.png';
 
 const Banner = () => {
   return (
-    <div className="hero py-14 w-full" style={ {
+    <div className="hero py-14 w-full " style={ {
       backgroundImage: `url(${bannerBGImage})`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat'
     }}>
 
-      <div className="lg:flex flex-row-reverse lg:flex-row">
+      <div className="lg:flex flex-row-reverse lg:flex-row bg-blend-hard-light bg-gray-600">
 
         <div className='lg:w-[55%] w-full  lg:mt-10 mt-5 lg:ml-10'>
           <h1 style={{lineHeight:'1.2em'}} className="lg:text-6xl text-4xl font-bold text-white lg:text-left text-center ">
@@ -25,7 +25,7 @@ const Banner = () => {
           <button className="btn bg-orange-600 rounded border-orange-600 text-white lg:ml-0 ml-10">Discover More</button>
         </div>
         <div className=' lg:w-[35%] w-full'>
-          <img src={bannerImage} className="lg:w-72  mx-auto lg:mt-0 mt-5"  />
+          <img src={bannerImage} className="lg:w-72  mx-auto lg:mt-0 mt-5 animate-pulse" alt='' />
         </div>
 
       </div>
