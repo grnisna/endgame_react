@@ -1,7 +1,5 @@
 import React from 'react';
 import './SubHeaders.css'
-
-
 const SubHeaders = () => {
     return (
       <div>
