@@ -9,8 +9,12 @@
     "daisyui": "^2.19.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+<<<<<<< HEAD
+    "react-router-dom": "^6.3.0",
+=======
     "react-elastic-carousel": "^0.11.5",
     "react-icons": "^4.4.0",
+>>>>>>> cf94c042eb487fbb696bca39ab9f975cdb8b207e
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.5",
     "swiper": "^8.3.1",
@@ -41,8 +45,11 @@
     ]
   },
   "devDependencies": {
+<<<<<<< HEAD
+=======
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
+>>>>>>> cf94c042eb487fbb696bca39ab9f975cdb8b207e
     "tailwindcss": "^3.1.6"
   }
 }

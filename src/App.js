@@ -1,23 +1,21 @@
-import React from 'react';
-import Banner from './Components/Banner';
-import BusinessSummary from './Components/BusinessSummary';
-import Footer from './Components/Footer';
-import Promotion from './Components/Promotion';
-import Testimonial from './Components/Testimonial';
-import Section01 from "./Components/TreeSection/Section01";
 
-
-
+import './App.css';
+import Navebar from './Pages/Shared/Navbar';
+import { Routes, Route,  } from "react-router-dom";
+import Home from './Pages/Home/Home';
+import About from './Pages/About/About';
+import SubHeaders from './Pages/Shared/SubHeaders/SubHeaders';
 function App() {
   return (
-    <div>
-      <Banner></Banner>
-      <Promotion></Promotion>
-      <Section01></Section01>
-      <BusinessSummary></BusinessSummary>
-      <Testimonial></Testimonial> 
-      <Footer />
-
+    <div className="App">
+      <SubHeaders></SubHeaders>
+      <Navebar></Navebar>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      
+   
     </div>
   );
 }
