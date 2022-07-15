@@ -23,7 +23,7 @@ const Product = ({ product }) => {
                         <p className=' pb-3 description'>{description?.slice(0, 110)}.....</p>
                     </div>
 
-                    <div className='text-center mb-0 '>
+                    <div className='text-center mb-0'>
                         <button className='btn btn-outline mb-0 btn-warning'>
                             Buy Now  <FontAwesomeIcon icon={faAngleDoubleRight} />
                         </button>
