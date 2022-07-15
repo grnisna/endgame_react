@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "image": "https://i.ibb.co/nD3xGVK/51-Hcllfr6-DL-SX522.jpg",
+        "productname": "Milageto Robotic Arm Accessory",
+        "minimumOrder": "8",
+        "price": "10",
+        "quantity": "147",
+        "description": "DIY 6-dof Mechanics Servo Handle Robot Arm for Robotics LearningKits Servo finish the grabing or lisfting action front and back, u....."
+    },
+    {
+        "_id": 2,
+        "image": "https://i.ibb.co/mBdfkHM/61g8-Eo-QG-LL-AC-UL320-SR320-320.jpg",
+        "productname": "Aluminum Nexus Mecanum Wheels",
+        "minimumOrder": "15",
+        "price": "15",
+        "quantity": "555",
+        "description": "The 203mm mecanum wheel is a heavy duty wheel comprised of a series of rollers, mounted so that their axis of rotation is 45 to th....."
+    },
+    {
+        "_id": 3,
+        "image": "https://i.ibb.co/5MYBLWm/81-Y-n-ZVRRh-L-SL1500.jpg",
+        "productname": "Milageto Robotic Arm Accessory",
+        "minimumOrder": "10",
+        "price": "25",
+        "quantity": "300",
+        "description": "With power supply green LED indicator and the mini voltmeter which can be calibrated by adjusting potentiometer High power of 5A a....."
+    },
+    {
+        "_id": 4,
+        "image": "https://i.ibb.co/VMT6Ch4/F9-JLLU7-GK0-YUT4-A.png",
+        "productname": "Milageto Robotic Arm Accessory",
+        "minimumOrder": "15",
+        "price": "25",
+        "quantity": "250",
+        "description": "Genuine OEM replacement part.Robot Coupe is the foodservice industry leader in the refinement of food processors Use genuine OEM p....."
+    },
+    {
+        "_id": 5,
+        "image": "https://i.ibb.co/2kPdfCX/H4c27e1f3ba5e4cf4b0990ae1f99596f5g.jpg",
+        "productname": "Milageto Robotic Arm Accessory",
+        "minimumOrder": "10",
+        "price": "20",
+        "quantity": "200",
+        "description": "A Rollpaw kit and PCA9685 16 Channel 12 Bit PWM Servo Driver included.Rollpaw is a simple solution for projects requiring small gr....."
+    },
+    {
+        "_id": 6,
+        "image": "https://i.ibb.co/99R0fp0/TD-168-152-1-500x500.jpg",
+        "productname": "Milageto Robotic Arm Accessory",
+        "minimumOrder": "15",
+        "price": "50",
+        "quantity": "500",
+        "description": "Vacuum Cleaner parts.Traveling wheel-right and left.Compaitble for Roborock S50 S51 S55.left traveling for Roborock S5 1PCS.right ....."
+    }
+]
